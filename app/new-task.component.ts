@@ -13,7 +13,7 @@ import {Task} from './task.model';
   `
 })
 export class NewTaskComponent {
-  public onSubmitNewTask: EventEmitter<Task>;
+  public onSubmitNewTask: EventEmitter<String>;
   constructor(){
     this.onSubmitNewTask = new EventEmitter();
   }
